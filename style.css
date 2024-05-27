@@ -1,0 +1,154 @@
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: #faf9f6;
+	margin: 30px 50px 0px 50px;
+}
+.header > h1 {
+	font-weight: 700;
+	font-size: 5rem;
+}
+.header .creative {
+	color: midnightblue;
+}
+.header {
+	display: flex;
+	flex-direction: column;
+}
+.wrapper {
+	display: flex;
+	flex-direction: row;
+	min-height: 95vh;
+}
+.left {
+	margin-right: 30px;
+}
+.card {
+	flex: 1;
+}
+.tile-image {
+	height: 200px;
+}
+.tile-image {
+	float: left;
+	margin-right: 30px;
+}
+footer {
+	text-align: right;
+	color: midnightblue;
+}
+@media (min-width: 320px) and (max-width: 519px) {
+	.header h1 {
+		font-size: 2.2rem;
+		text-align: center;
+	}
+	.header {
+		width: 100%;
+	}
+	body {
+		margin: 20px 20px 0px 20px;
+	}
+	.logo > img {
+		height: 1rem;
+	}
+	.left, .tile-image {
+		margin: 0px;
+	}
+	.wrapper {
+		display: block;
+	}
+	.card {
+		width: 100%;
+		text-align: justify;
+		margin-bottom: 30px;
+	}
+	.tile-image {
+		width: 100%;
+		object-fit: cover;
+		float: none;
+		height: 150px;
+	}
+	.card-title {
+		font-size: 1.2rem;
+	}
+}
+@media (min-width: 520px) and (max-width: 768px) {
+	body {
+		margin: 30px 30px 0px 30px;
+	}
+	.logo > img {
+		height: 1.5rem;
+	}
+	.header {
+		width: 100%;
+	}
+	.header h1 {
+		font-size: 2.8rem;
+		text-align: center;
+	}
+	.left, .tile-image {
+		margin: 0px;
+	}
+	.wrapper {
+		display: block;
+	}
+	.card {
+		width: 100%;
+		margin-bottom: 30px;
+		text-align: justify;
+	}
+	.tile-image {
+		width: 100%;
+		object-fit: cover;
+		height: 160px;
+		float: none;
+	}
+	.card-title {
+		font-size: 1.3rem;
+	}
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+	body {
+		margin: 40px 40px 0px 40px;
+	}
+	.logo > img {
+		height: 1.7rem;
+	}
+	.header {
+		width: 100%;
+	}
+	.header h1 {
+		font-size: 3rem;
+	}
+	.wrapper {
+		display: flex;
+		flex-direction: row;
+	}
+	.card {
+		flex: 1;
+	}
+	.tile-image {
+		width: 100%;
+		float: none;
+		object-fit: cover;
+		height: 180px;
+	}
+}
+@media (min-width: 1025px) {
+	body {
+		margin: 45px 45px 0px 45px;
+	}
+	.logo > img {
+		height: 1.9rem;
+	}
+	.header h1 {
+		font-size: 4rem;
+	}
+	.wrapper {
+		display: flex;
+		flex-direction: row;
+	}
+	.tile-image {
+		float: left;
+		object-fit: cover;
+	}
+}
